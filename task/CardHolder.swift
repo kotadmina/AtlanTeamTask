@@ -63,6 +63,7 @@ class CardHolder: UIView {
     }
     
     @objc private func cardPressed(sender: UITapGestureRecognizer) {
+        sender.view?.endEditing(true)
         if let previousOpenedView = openedView {
             let topY = placeholderTopY + CGFloat(previousOpenedView.tag) * closedCardHeight
             animateViewToY(view: previousOpenedView, y: topY)
