@@ -36,7 +36,7 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Cards" image="first" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Cards" image="cards" id="acW-dT-cKf"/>
                     <connections>
                         <outlet property="cardHolderView" destination="Pw5-yM-2do" id="znA-q9-iVH"/>
                     </connections>
@@ -101,7 +101,7 @@
                             </mask>
                         </variation>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Info" image="second" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="Info" image="info" id="cPa-gy-q4n"/>
                     <connections>
                         <outlet property="emailLabel" destination="9pt-kf-aqi" id="m9x-OC-AVk"/>
                         <outlet property="firstLabelCenter" destination="uYD-vh-Rdm" id="33T-7L-l6i"/>
@@ -129,7 +129,7 @@
         <scene sceneID="yl2-sM-qoP">
             <objects>
                 <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
-                    <tabBar key="tabBar" contentMode="scaleToFill" id="W28-zg-YXA">
+                    <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="fill" id="W28-zg-YXA">
                         <rect key="frame" x="0.0" y="975" width="768" height="49"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -145,7 +145,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="first" width="30" height="30"/>
-        <image name="second" width="30" height="30"/>
+        <image name="cards" width="30" height="21"/>
+        <image name="info" width="27" height="28"/>
     </resources>
 </document>
