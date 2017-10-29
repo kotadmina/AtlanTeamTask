@@ -59,17 +59,25 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="daria.s.gurova@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pt-kf-aqi">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="daria.s.gurova@gmail.com" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9pt-kf-aqi">
                                 <rect key="frame" x="375" y="153.5" width="238" height="23.5"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Mme-Km-Wih" appends="YES" id="HxT-8x-45x"/>
+                                </connections>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7 (916) 914-61-45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sA5-MN-LJ9">
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="+7 (916) 914-61-45" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sA5-MN-LJ9">
                                 <rect key="frame" x="375" y="207" width="170" height="23.5"/>
+                                <gestureRecognizers/>
                                 <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="jiB-sn-0VI" appends="YES" id="0Nb-bE-2eo"/>
+                                </connections>
                             </label>
                         </subviews>
                         <color key="backgroundColor" red="0.36862745098039218" green="0.20784313725490194" blue="0.69411764705882351" alpha="1" colorSpace="calibratedRGB"/>
@@ -95,12 +103,25 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Info" image="second" id="cPa-gy-q4n"/>
                     <connections>
+                        <outlet property="emailLabel" destination="9pt-kf-aqi" id="m9x-OC-AVk"/>
                         <outlet property="firstLabelCenter" destination="uYD-vh-Rdm" id="33T-7L-l6i"/>
+                        <outlet property="nameLabel" destination="5AN-vi-ayu" id="gTq-BD-7SR"/>
+                        <outlet property="phoneLabel" destination="sA5-MN-LJ9" id="FJ7-nG-uNh"/>
                         <outlet property="secondLabelCenter" destination="jTa-Kc-Uh8" id="drD-1B-SfN"/>
                         <outlet property="thirdLabelCenter" destination="HD2-zN-bV2" id="azW-sb-2yB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="Mme-Km-Wih">
+                    <connections>
+                        <action selector="emailLabelPressed:" destination="8rJ-Kc-sve" id="2ba-e7-jqh"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="jiB-sn-0VI">
+                    <connections>
+                        <action selector="phoneLabelPressed:" destination="8rJ-Kc-sve" id="vy1-F3-NmA"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="749.60000000000002" y="359.37031484257875"/>
         </scene>

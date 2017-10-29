@@ -26,6 +26,7 @@
 		723E2A791FA25542001BA703 /* Roboto-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 723E2A6D1FA25541001BA703 /* Roboto-Light.ttf */; };
 		723E2A7A1FA25542001BA703 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 723E2A6E1FA25542001BA703 /* Roboto-Bold.ttf */; };
 		723E2A7C1FA25802001BA703 /* RaisedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 723E2A7B1FA25802001BA703 /* RaisedButton.swift */; };
+		728304361FA608CE00D3ECAF /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728304351FA608CE00D3ECAF /* Contacts.swift */; };
 		728340CA1F9F6E1A00FD3B44 /* CommentsCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728340C91F9F6E1A00FD3B44 /* CommentsCardView.swift */; };
 		728340CC1F9F6E3000FD3B44 /* CommentsCardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 728340CB1F9F6E3000FD3B44 /* CommentsCardView.xib */; };
 		728340CF1F9F6E7A00FD3B44 /* PicturesCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 728340CE1F9F6E7A00FD3B44 /* PicturesCardView.swift */; };
@@ -70,6 +71,7 @@
 		723E2A6D1FA25541001BA703 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		723E2A6E1FA25542001BA703 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		723E2A7B1FA25802001BA703 /* RaisedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaisedButton.swift; sourceTree = "<group>"; };
+		728304351FA608CE00D3ECAF /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
 		728340C91F9F6E1A00FD3B44 /* CommentsCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsCardView.swift; sourceTree = "<group>"; };
 		728340CB1F9F6E3000FD3B44 /* CommentsCardView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentsCardView.xib; sourceTree = "<group>"; };
 		728340CE1F9F6E7A00FD3B44 /* PicturesCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicturesCardView.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 				723E2A7B1FA25802001BA703 /* RaisedButton.swift */,
 				72EFC64D1F9D063300AFE8F4 /* SecondViewController.swift */,
 				72EEB9B51F9E5A7900DE8779 /* CardView.swift */,
+				728304351FA608CE00D3ECAF /* Contacts.swift */,
 				72EEB9B31F9E419000DE8779 /* CardHolder.swift */,
 				72EFC64F1F9D063300AFE8F4 /* Main.storyboard */,
 				72EFC6521F9D063300AFE8F4 /* Assets.xcassets */,
@@ -323,6 +326,7 @@
 				728340D91F9F6F7000FD3B44 /* TodoCardView.swift in Sources */,
 				72EFC64E1F9D063300AFE8F4 /* SecondViewController.swift in Sources */,
 				72171A961FA1FA41009D3CAD /* CommentsCardViewModel.swift in Sources */,
+				728304361FA608CE00D3ECAF /* Contacts.swift in Sources */,
 				72EFC64A1F9D063300AFE8F4 /* AppDelegate.swift in Sources */,
 				72BEF9FC1FA10FDE00E78D55 /* PicturesCardViewDelegate.swift in Sources */,
 				723E2A7C1FA25802001BA703 /* RaisedButton.swift in Sources */,
